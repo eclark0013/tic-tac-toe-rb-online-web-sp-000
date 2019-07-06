@@ -66,6 +66,7 @@ def turn(board)
     puts "Please enter a number 1-9:"
     spot = input_to_index(gets)
   end
+  display_board(move(board, spot, character))  
   move(board, spot, character)
 end
 
